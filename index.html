@@ -3,6 +3,13 @@
   <head>
     <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -508,172 +515,250 @@
           </div>
         </div>
       </section>
-      <!--      
-      <div class="group-20">
-        <div class="overlap-5">
-          <div class="overlap-6">
-            <div class="frame-16">
-              <div class="frame-17">
-                <div class="frame-18">
-                  <div class="frame-19">
-                    <div class="text-wrapper-28">Tên họ</div>
-                    <div class="rectangle-15"></div>
-                  </div>
-                  <div class="frame-19">
-                    <div class="text-wrapper-28">Tên đệm</div>
-                    <div class="rectangle-15"></div>
-                  </div>
+      <section>
+        <div class="title-wrapper">CÂU HỎI</div>
+        <div class="list-ques">
+          <ul class="pading-l-r-70">
+            <li onclick="toggleQues(this)">
+              <div class="flex justify-bet">
+                <div>
+                  Em mới tốt nghiệp cấp 3 có thể tham gia khóa học này không?
                 </div>
-                <div class="frame-20">
-                  <div class="text-wrapper-28">Email</div>
-                  <div class="rectangle-16"></div>
-                </div>
-                <div class="frame-20">
-                  <div class="text-wrapper-28">Số điện thoại</div>
-                  <div class="rectangle-16"></div>
-                </div>
-                <div class="frame-20">
-                  <div class="text-wrapper-28">Thông tin liên hệ</div>
-                  <div class="rectangle-17"></div>
-                </div>
+                <i class="fa-solid fa-chevron-down"></i>
               </div>
-              <div class="group-21">
-                <div class="overlap-group-2">
-                  <div class="text-wrapper-29">Gửi tư vấn</div>
+              <div class="ques-hiden">
+                <hr />
+                <p>
+                  BA là một việc làm khó, logic và tính chịu trách nhiệm cao. Em
+                  có thể học với điều kiện các môn học liên quan đến logic và
+                  ngôn ngữ khi học cấp 3 ở mức khá giỏi (Toán - Lý - Hóa - Văn -
+                  Anh) vì nếu không thì rất khó đạt yêu cầu công việc. Cũng tính
+                  đến việc khá là khó để ứng tuyển nếu không có bằng Đại học,
+                  trừ khi có 1 profile hoặc sản phẩm đáng nể.
+                </p>
+              </div>
+            </li>
+            <li onclick="toggleQues(this)">
+              <div class="flex justify-bet">
+                <div>
+                  Khoá học này có cam kết việc làm sau khi tốt nghiệp không?
                 </div>
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
+              <div class="ques-hiden">
+                <hr />
+                Điều đó phụ thuộc vào việc em tốt nghiệp môn này ở mức nào và
+                thị trường có đang tuyển dụng không vì khi tình hình kinh tế khó
+                khăn doanh nghiệp thường sẽ chỉ tuyển người có kinh nghiệm.
+              </div>
+            </li>
+            <li onclick="toggleQues(this)">
+              <div class="flex justify-bet">
+                <div>
+                  Cơ hội nghề nghiệp của nghề phân tích nghiệp vụ như thế nào?
+                  Làm ở công ty nào? dự án nào? Mức lương khởi điểm bao nhiêu?
+                </div>
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
+              <div class="ques-hiden">
+                <hr />
+                <p>
+                  Nghề này có nhu cầu tuyển BA từ 1-2 năm kinh nghiệm rất nhiều
+                  (tất nhiên nhu cầu không nhiều như lập trình viên về số lượng
+                  cần tuyển vì 5 lập trình viên mới cần 1 BA) nhưng vì trước đây
+                  lập trình viên thường tự kiêm công việc BA và khoảng chục năm
+                  trở lại đây mới dần phân tách rõ công việc BA nên nhu cầu
+                  tuyển BA nhiều hơn. Các công ty phần mềm phần lớn đều đang
+                  tuyển BA có kinh nghiệm. Lương BA khởi điểm từ 8 triệu đến 12
+                  triệu tùy năng lực.
+                </p>
+              </div>
+            </li>
+            <li onclick="toggleQues(this)">
+              <div class="flex justify-bet">
+                <div>
+                  Phân tích nghiệp vụ có phải là một nghề nghiệp lâu dài hay
+                  mang tính thời vụ dự án?
+                </div>
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
+              <div class="ques-hiden">
+                <hr />
+                <p>
+                  Nghề này giống bác sĩ, gừng càng già càng cay, càng nhiều ca
+                  thì càng nhiều kinh nghiệm.
+                </p>
+              </div>
+            </li>
+            <li onclick="toggleQues(this)">
+              <div class="flex justify-bet">
+                <div>
+                  Để trở thành một BA giỏi thì cần có những kỹ năng cứng và mềm
+                  nào?
+                </div>
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
+              <div class="ques-hiden">
+                <hr />
+                <p>
+                  Tôi có 1 clip chia sẻ rất kỹ về câu hỏi này tại đây. Đại khái
+                  là cần kỹ năng về Hệ thống thông tin, kỹ năng giao tiếp, viết
+                  tài liệu chuyên nghiệp.
+                </p>
+              </div>
+            </li>
+            <li onclick="toggleQues(this)">
+              <div class="flex justify-bet">
+                <div>Nghề BA có bị ảnh hưởng bởi AI, ChatGPT không?</div>
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
+              <div class="ques-hiden">
+                <hr />
+                <p>
+                  BA hay cao hơn là Product Owner là người đầu tiên mô tả chi
+                  tiết về các sản phẩm AI hay ChatGPT vì vậy nước lên thì thuyền
+                  lên. Sản phẩm nào cũng cần BA.
+                </p>
+              </div>
+            </li>
+            <li onclick="toggleQues(this)">
+              <div class="flex justify-bet">
+                <div>
+                  Tôi có cần phải học lập trình trước rồi học BA hay học BA
+                  trước rồi học lập trình?
+                </div>
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
+              <div class="ques-hiden">
+                <hr />
+                <p>
+                  BA hay cao hơn là Product Owner là người đầu tiên mô tả chi
+                  tiết về các sản phẩm AI hay ChatGPT vì vậy nước lên thì thuyền
+                  lên. Sản phẩm nào cũng cần BA.
+                </p>
+              </div>
+            </li>
+            <li onclick="toggleQues(this)">
+              <div class="flex justify-bet">
+                <div>
+                  Em học công nghệ thông tin ở trường đại học, nhưng lập trình
+                  không giỏi, nếu chuyển sang làm BA thì cần bổ sung kỹ năng gì?
+                </div>
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
+              <div class="ques-hiden">
+                <hr />
+                <p>
+                  Học lại môn Phân tích và thiết kế hệ thống, ngôn ngữ mô hình
+                  hóa UML hoặc BPMN, cơ sở dữ liệu, Logic hình thức và Nhập môn
+                  BA.
+                </p>
+              </div>
+            </li>
+            <li onclick="toggleQues(this)">
+              <div class="flex justify-bet">
+                <div>
+                  Học khoá học này, có giúp ích gì cho tôi nếu tôi đang là lập
+                  trình viên tại một công ty gia công phần mềm?
+                </div>
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
+              <div class="ques-hiden">
+                <hr />
+                <p>
+                  Giúp bạn hiểu yêu cầu nghiệp vụ và tương tác tốt hơn với BA
+                  cũng như các thành viên trong dự án, khi cần bạn cũng có thể
+                  làm thay hoặc kiêm nhiệm một phần việc của BA.
+                </p>
+              </div>
+            </li>
+            <li onclick="toggleQues(this)">
+              <div class="flex justify-bet">
+                <div>
+                  Tôi có cần phải học lập trình trước rồi học BA hay học BA
+                  trước rồi học lập trình?
+                </div>
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
+              <div class="ques-hiden">
+                <hr />
+                <p>
+                  Nên học nhập môn BA trước để hiểu tổng quan nghề BA rồi học
+                  lập trình.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <div class="title-wrapper">LIÊN HỆ</div>
+        <div class="flex bg-contact justify-bet">
+          <div>
+            <div class="title-contact color-title pading-b-30">Tư vấn viên</div>
+            <div class="flex align-center pading-b-30 gap-70">
+              <img class="ellipse-3" src="img/ellipse-9.png" />
+              <div>
+                <div class="text-use flex p-b-15">
+                  <div class="title-contact color-name">Bùi Đức Thịnh</div>
+                  <div class="text-use-tel">(zalo:0987273764)</div>
+                </div>
+                <div class="text-use">Email:thinh@techmaster.vn</div>
+              </div>
+            </div>
+            <div class="text-address">
+              <p class="text-use pading-b-30">
+                Giáo vụ quản lý lớp Business Analysis K35
+              </p>
+              <div>
+                <p class="pading-b-30">
+                  Cơ sở 1: Tầng 12A, tòa nhà Viwaseen Tower, số 48, Tố Hữu Lê
+                  Văn Lương kéo dài, Hà Nội.
+                </p>
+                <p class="pading-b-30">
+                  Cơ sở 2: Số 14, ngõ 4, Nguyễn Đình Chiểu, Hà Nội.
+                </p>
+                <p class="pading-b-30">
+                  Cơ sở 3: Tầng 5, số 13 Dịch Vọng Hậu, Cầu Giấy, Hà Nội.
+                </p>
               </div>
             </div>
           </div>
-          <img class="ellipse-3" src="img/ellipse-9.png" />
-          <div class="text-wrapper-30">Tư vấn viên</div>
-          <div class="frame-21">
-            <div class="frame-22">
-              <div class="text-wrapper-31">Bùi Đức Thịnh</div>
-              <div class="text-wrapper-32">(zalo:0987273764)</div>
+          <div class="bg-contact-item">
+            <div class="flex gap-20 p-b-20">
+              <div>
+                <p>Tên họ</p>
+                <input type="text" />
+              </div>
+              <div>
+                <p>Tên đệm</p>
+                <input type="text" />
+              </div>
             </div>
-            <div class="text-wrapper-32">Email:thinh@techmaster.vn</div>
-          </div>
-          <div class="frame-23">
-            <p class="text-wrapper-33">
-              Giáo vụ quản lý lớp Business Analysis K35
-            </p>
-            <div class="frame-5">
-              <p class="c-s-t-ng-t-a">
-                Cơ sở 1: Tầng 12A, tòa nhà Viwaseen Tower, số 48, Tố Hữu Lê Văn
-                Lương kéo dài, Hà Nội.
-              </p>
-              <p class="text-wrapper-34">
-                Cơ sở 2: Số 14, ngõ 4, Nguyễn Đình Chiểu, Hà Nội.
-              </p>
-              <p class="text-wrapper-34">
-                Cơ sở 3: Tầng 5, số 13 Dịch Vọng Hậu, Cầu Giấy, Hà Nội.
-              </p>
+            <div class="p-b-20">
+              <p>Email</p>
+              <input type="text" />
+            </div>
+            <div class="p-b-20">
+              <p>Số điện thoại</p>
+              <input type="text" />
+            </div>
+            <div class="p-b-20">
+              <p>Thông tin liên hệ</p>
+              <textarea name="" id="" cols="30" rows="7"></textarea>
+            </div>
+            <div class="btn-contact">
+              <button>Gửi tư vấn</button>
             </div>
           </div>
         </div>
-      </div>
-    
-      <div class="frame-27">
-        <div class="text-wrapper-12">CÂU HỎI</div>
-        <div class="group-28">
-          <div class="group-29">
-            <div class="overlap-group-5">
-              <p class="text-wrapper-41">
-                Em mới tốt nghiệp cấp 3 có thể tham gia học khoá học này?
-              </p>
-              <img
-                class="iconoir-nav-arrow-11"
-                src="img/iconoir-nav-arrow-down-7.svg"
-              />
-            </div>
-          </div>
-          <div class="group-30">
-            <div class="overlap-group-5">
-              <p class="text-wrapper-42">
-                Khoá học này có cam kết việc làm sau khi tốt nghiệp không?
-              </p>
-              <img
-                class="iconoir-nav-arrow-11"
-                src="img/iconoir-nav-arrow-down-8.svg"
-              />
-            </div>
-          </div>
-          <div class="group-31">
-            <div class="overlap-group-5">
-              <p class="text-wrapper-43">
-                Phân tích nghiệp vụ có phải là một nghề nghiệp lâu dài hay mang
-                tính thời vụ dự án?
-              </p>
-              <img
-                class="iconoir-nav-arrow-11"
-                src="img/iconoir-nav-arrow-down-9.svg"
-              />
-            </div>
-          </div>
-          <div class="group-32">
-            <div class="overlap-group-5">
-              <p class="text-wrapper-44">
-                Để trở thành một BA giỏi thì cần có những kỹ năng cứng và mềm
-                nào?
-              </p>
-              <img
-                class="iconoir-nav-arrow-12"
-                src="img/iconoir-nav-arrow-down-10.svg"
-              />
-            </div>
-          </div>
-          <div class="group-33">
-            <div class="overlap-group-5">
-              <p class="text-wrapper-41">
-                Nghề BA có bị ảnh hưởng bởi AI, ChatGPT không?
-              </p>
-              <img
-                class="iconoir-nav-arrow-11"
-                src="img/iconoir-nav-arrow-down-11.svg"
-              />
-            </div>
-          </div>
-          <div class="group-34">
-            <div class="overlap-group-5">
-              <p class="text-wrapper-45">
-                Học khoá học này, có giúp ích gì cho tôi nếu tôi đang là lập
-                trình viên tại một công ty gia công phần mềm?
-              </p>
-              <img
-                class="iconoir-nav-arrow-13"
-                src="img/iconoir-nav-arrow-down-12.svg"
-              />
-            </div>
-          </div>
-          <div class="group-35">
-            <div class="overlap-group-5">
-              <p class="text-wrapper-46">
-                Tôi có cần phải học lập trình trước rồi học BA hay học BA trước
-                rồi học lập trình?
-              </p>
-              <img
-                class="iconoir-nav-arrow-11"
-                src="img/iconoir-nav-arrow-down-13.svg"
-              />
-            </div>
-          </div>
-          <div class="group-36">
-            <div class="overlap-group-5">
-              <p class="text-wrapper-45">
-                Cơ hội nghề nghiệp của nghề phân tích nghiệp vụ như thế nào? Làm
-                ở công ty nào? dự án nào? Mức lương khởi điểm bao nhiêu?
-              </p>
-              <img
-                class="iconoir-nav-arrow-13"
-                src="img/iconoir-nav-arrow-down-14.svg"
-              />
-            </div>
-          </div>
+      </section>
+
+      <footer class="flex ">
+        <div>
+          <img src="/img/logotechmaster-3.png" alt="" />
         </div>
-      </div>
-      <div class="logotechmaster-wrapper">
-        <img class="logotechmaster-2" src="img/logotechmaster-3.png" />
-      </div> -->
+      </footer>
       <script src="./main.js"></script>
     </main>
   </body>

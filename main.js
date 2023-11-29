@@ -20,10 +20,10 @@ $(document).ready(function () {
 
 function toggleContent(id) {
   const content = document.getElementById(id);
-  const listItems = document.querySelectorAll(".list li");
-  listItems.forEach((item) => {
-    if (item.innerText === event.target.innerText) {
-      content.classList.toggle("hidden-content");
-    }
-  });
+  content.classList.toggle("hidden-content");
+}
+
+function toggleQues(element) {
+  const content = element.querySelector('.ques-hiden');
+  content.style.display = (content.style.display === 'none') ? 'block' : 'none';
 }
