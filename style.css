@@ -9,7 +9,17 @@
 .pading-l-r-70 {
   padding: 0 150px;
 }
-
+@media (max-width: 1440px) {
+  .pading-l-r-70 {
+    padding: 0 60px;
+  }
+}
+/*May tinh bang*/
+@media (max-width: 1024px) {
+  .pading-l-r-70 {
+    padding: 0 30px;
+  }
+}
 /*Header*/
 
 .baner {
@@ -80,6 +90,41 @@ nav {
   background-color: #eed39e;
 }
 
+@media (max-width: 1440px) {
+  nav {
+    padding: 0 60px;
+    gap: 150px;
+  }
+  .title {
+    left: 60px;
+  }
+}
+
+/*May tinh bang*/
+@media (max-width: 1024px) {
+  nav {
+    padding: 0 30px;
+    gap: 100px;
+  }
+  .logotechmaster {
+    width: 160px;
+    height: 56px;
+  }
+  .navbar {
+    gap: 20px;
+  }
+  .text-wrapper {
+    font-size: 15px;
+  }
+  .baner {
+    height: 500px;
+  }
+  .title {
+    top: 100px;
+    left: 30px;
+  }
+}
+
 /*Gioi Thieu*/
 .title-wrapper {
   font-family: "Inter", Helvetica;
@@ -105,6 +150,22 @@ nav {
   color: #000000;
   font-size: 20px;
 }
+@media (max-width: 1440px) {
+  .title-wrapper {
+    padding: 30px 60px;
+  }
+  .box-content {
+    padding: 30px 60px;
+  }
+}
+@media (max-width: 1024px) {
+  .title-wrapper {
+    padding: 30px;
+  }
+  .box-content {
+    padding: 30px;
+  }
+}
 
 /*Doi Tuong Hoc Vien*/
 
@@ -116,6 +177,31 @@ nav {
 }
 .max-w-50 {
   max-width: 60%;
+}
+.flex-mobie {
+  display: flex;
+}
+.scre-1024 {
+  display: none;
+}
+@media (max-width: 1440px) {
+  .max-w-50 {
+    max-width: 55%;
+  }
+}
+@media (max-width: 1024px) {
+  .title-wrapper {
+    padding: 30px;
+  }
+  .box-content {
+    padding: 30px;
+  }
+  .flex-mobie {
+    display: block;
+  }
+  .max-w-50 {
+    max-width: 100%;
+  }
 }
 
 /*Lo Trinh Hoc*/
@@ -141,7 +227,6 @@ nav {
   left: 40%;
 }
 .list ul li {
-  padding: 30px;
   background-color: rgba(79, 162, 239, 47%);
   margin-bottom: 30px;
   color: #2f5596;
@@ -149,6 +234,9 @@ nav {
   font-weight: 600;
   font-family: "Inter", Helvetica;
   border-radius: 20px;
+}
+.p-30 {
+  padding: 30px;
 }
 
 .img-info {
@@ -183,11 +271,75 @@ nav {
 .hidden-content {
   display: none;
 }
+@media (max-width: 1440px) {
+  .frame-10 {
+    top: 30px;
+    left: 60px;
+    width: 53%;
+  }
+  .res-w-mobie {
+    width: 66%;
+  }
+  .img-overlay {
+    width: 36%;
+  }
+  .list ul li {
+    font-size: 20px;
+  }
+  .list {
+    top: 2%;
+    left: 36%;
+  }
+  .p-20 {
+    padding-bottom: 20px;
+  }
+  .content {
+    padding: 0 15px;
+  }
+  .content ul li p {
+    font-size: 18px;
+    padding: 0 10px;
+  }
+  .p-30 {
+    padding: 15px;
+  }
+}
 
+@media (max-width: 1024px) {
+  .big-intro {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .scre-1024 {
+    display: block;
+    background-color: antiquewhite;
+    padding: 30px;
+  }
+  .pos-rel {
+    height: 100vh;
+  }
+  .img-overlay,
+  .img-info {
+    display: none;
+  }
+  .list {
+    top: 25%;
+    left: 2%;
+  }
+  .w-content {
+    width: 70%;
+  }
+  .content {
+    padding: 0 10px;
+  }
+}
 /*HOC PHI*/
 
 .justify-eve {
   justify-content: space-evenly;
+}
+.overlap-group-3 {
+  position: relative;
 }
 .item-price {
   width: 350px;
@@ -227,8 +379,7 @@ nav {
   position: absolute;
   width: 186px;
   height: 5px;
-  top: 19px;
-  left: 8px;
+  top: 40%;
 }
 .overlap-group-4 {
   position: relative;
@@ -282,9 +433,10 @@ nav {
   color: #000000;
   font-size: 20px;
 }
-.item-tech img {
+.w-img {
   width: 200px;
-  height: 200px;
+}
+@media (max-width: 1440px) {
 }
 
 /*NHAN XET*/
@@ -317,6 +469,7 @@ nav {
 }
 .font-s-20 {
   font-size: 20px;
+  font-family: monospace;
 }
 .justify-aro {
   justify-content: space-around;
@@ -326,6 +479,8 @@ nav {
 }
 .slick-slide {
   margin-right: 20px !important;
+}
+@media (max-width: 1440px) {
 }
 
 /*CAU HOI*/
@@ -421,4 +576,23 @@ footer {
 footer img {
   width: 200px;
   height: 74px;
+}
+@media (max-width: 1440px) {
+  .bg-contact {
+    background-color: #dee2f4;
+    padding: 45px 60px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .bg-contact {
+    background-color: #dee2f4;
+    padding: 45px 30px;
+  }
+  .ellipse-3 {
+    width: 150px;
+  }
+  .gap-70 {
+    gap: 50px;
+  }
 }
